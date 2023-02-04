@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>a</title>
+	<title>ini yang ada di folder view</title>
 </head>
 <body>
 
