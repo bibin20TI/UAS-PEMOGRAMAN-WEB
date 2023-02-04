@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 use Illuminate\Support\Facades\Route;
 
@@ -27,3 +27,7 @@ Route::get('/mahasiswa',function(){
 
 	return view('universitas.mahasiswa',['mahasiswa01'=>'steven auger']);
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
